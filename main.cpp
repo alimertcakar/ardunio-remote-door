@@ -4,7 +4,7 @@
 
 const char *ssid = "Your Wifi SSID";
 const char *password = "Your Wifi Password";
-String serverPath = "https://your-be-server/door-status";
+String serverPath = "https://example.com/door-status"; // <-- replace with your server or server ip
 
 const int relayPin = D5; // does not fire up on startup, other than no specific reason to use d5
 const int ledBuiltIn = LED_BUILTIN;
